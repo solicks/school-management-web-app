@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0, maximum-scale=1.0" />
+        <title>School Management Web App</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <h1>School Management Web App</h1>
+        <div class="reg">
+            <h2>Student Registration Form</h2>
+            <div class="buttons">
+                <button type="submit" id="signup">sign Up</bouton>
+                <button type="submit" id="signin">sign In</button>
+                <form method="POST" id="reg" action="php">
+                    <label>First Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Fist Name" required><br><br>
+                    <label>Last Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Last Name" required><br><br>
+                    <label>Enter Your Email:</label><br>
+                    <input type="email" name="email" id="name" placeholder="Enter Your Email" required><br><br>
+                    <label>Password:</label><br>
+                    <input type="password" name="pass" id="name" placeholder="Enter Your Password" required><br><br>
+                    <label>Confirm Password:</label><br>
+                    <input type="password" name="pass" id="name" placeholder="Confirm Your Password" required><br><br>
+                    <label>Date Of Birth:</label><br>
+                    <input type="date" name="date" id="name" placeholder="Enter Your DOB" required><br><br>
+                    <label>Mobile Number:</label><br>
+                    <input type="number" name="number" id="name" placeholder="Enter Your Mobile Number"><br><br>
+                    <label>Gender:</label><br>
+                    <input type="radio" id="ma" > <span id="ma">Male</span><br> <input type="radio" id="ma"> <span id="ma">Female</span><br> <input type="radio" id="ma"><span id="ma">Others</span><br><br>
+                    <label for="img">Select image:</label>
+                    <input type="file" id="img" name="img" accept="image/*"><br><br>
+                    <label>Address:</label><br>
+                    <textarea rows="16" cols="46" placeholder="Enter Your Address Here..." id="text"></textarea><br><br>
+                    <input type="checkbox" id="ch"><span id="ch">I Agree to all the <a href="#">terms and conditions.</a></span><br />
+                    <br>
+                    <button type="Submit" id="sub"><a href="course.html">Register & Continue to course Form</a></button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

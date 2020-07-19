@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-sacle=1.0, maximum-scale=1.0"
+    />
+    <title>School Management Web App</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <h1>School Management Web App</h1>
+    <div class="reg">
+      <h2>Course Registration Form</h2>
+      <div class="buttons">
+        <form method="POST" id="reg" action="php">
+          <label>Select Faculty</label><br />
+          <select name="faculty" id="faculty">
+            <option value="select">-select faculty-</option>
+            <option value="admin">Business Adminitration</option>
+            <option value="edu">Education</option>
+            <option value="engin">Engineering</option>
+            <option value="social">Social Sciences</option>
+            <option value="science">Sciences</option>
+            <option value="art">Art</option> </select
+          ><br />
+          <label>Select Department</label><br />
+          <select name="department" id="department">
+            <option value="select">-select department-</option>
+            <option value="admin">Business Adminitration</option>
+            <option value="edu">Business Education</option>
+            <option value="engin">Civil Engineering</option>
+            <option value="social">Economics</option>
+            <option value="science">BioChemistry</option>
+            <option value="admin">MicroBiology</option>
+            <option value="edu">Statistics</option>
+            <option value="engin">Sociology</option>
+            <option value="social">Insurance</option>
+            <option value="science">Mathimatics</option> </select
+          ><br />
+          <label>Select Course</label><br />
+          <select name="course" id="course">
+            <option value="admin">-select course-</option>
+            <option value="admin">Banking and Finance</option>
+            <option value="edu">Physical Health Education</option>
+            <option value="engin">Computer Science</option>
+            <option value="social">Political Science</option>
+            <option value="science">Mathimatics</option>
+            <option value="admin">History and International Relations</option>
+            <option value="edu">English Education</option>
+            <option value="engin">Physics</option>
+            <option value="social">Economics</option>
+            <option value="science">Public Admin</option> </select
+          ><br />
+          <label>Student Matric Number</label><br />
+          <input
+            type="number"
+            name="number"
+            id="name"
+            placeholder="Enter Your matric"
+          /><br />
+          <label>Select Level</label>
+          <select name="level" id="leve">
+            <option value="select">-select level-</option>
+            <option value="lev1">100 Level</option>
+            <option value="lev2">200 Level</option>
+            <option value="lev3">300 Level</option>
+            <option value="lev4">400 Level</option>
+            <option value="lev5">500 Level</option> </select
+          ><br /><br />
+
+          <br />
+          <button type="Submit" id="sub">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
